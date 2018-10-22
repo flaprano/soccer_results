@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SoccerResults</string>
+    <string name="txt_name_teamA">Team A</string>
+    <string name="txt_goals">Gols</string>
+    <string name="txt_name_teamB">Team B</string>
+    <string name="txt_faults">Faltas</string>
+    <string name="txt_yellow_cards">Cartões Amarelos</string>
+    <string name="txt_red_cards">Cartões Vermelhos</string>
+    <string name="txt_corner_kicks">Escanteios</string>
+    <string name="txt_penalties">Penâltis</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+    <string name="initial_counter">0</string>
+    <string name="reset">Resetar</string>
+</resources>
