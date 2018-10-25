@@ -32,8 +32,7 @@
                 android:text="@string/txt_name_teamA" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_goals" />
 
             <LinearLayout
@@ -42,29 +41,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementGoalsTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementGolasTeamA"
+                    style="@style/Button"
+                    android:background="@drawable/goal_1" />
 
                 <TextView
                     android:id="@+id/txtGoalCounterTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementGolasTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txtFaultsTeamA"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_faults" />
 
             <LinearLayout
@@ -73,28 +61,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementFaultsTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementFaultsTeamA"
+                    style="@style/Button"
+                    android:background="@drawable/checkered_flag" />
 
                 <TextView
                     android:id="@+id/txtFaultsCounterTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementFaultsTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_yellow_cards" />
 
             <LinearLayout
@@ -103,28 +81,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementYellowCardsTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementYellowCardsTeamA"
+                    style="@style/Button"
+                    android:background="@drawable/yellow_card" />
 
                 <TextView
                     android:id="@+id/txtYellowCardsCounterTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementYellowCardsTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_red_cards" />
 
             <LinearLayout
@@ -133,28 +101,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementRedCardsTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementRedCardsTeamA"
+                    style="@style/Button"
+                    android:background="@drawable/red_card" />
 
                 <TextView
                     android:id="@+id/txtRedCardsCounterTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementRedCardsTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_corner_kicks" />
 
             <LinearLayout
@@ -163,28 +121,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementCornerKicksTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementCornerKicksTeamA"
+                    style="@style/Button"
+                    android:background="@drawable/corner" />
 
                 <TextView
                     android:id="@+id/txtCornerKicksCounterTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementCornerKicksTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_penalties" />
 
             <LinearLayout
@@ -193,22 +141,13 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementPenaltiesTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementPenaltiesTeamA"
+                    style="@style/Button"
+                    android:background="@drawable/goal" />
 
                 <TextView
                     android:id="@+id/txtPenaltiesCounterTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementPenaltiesTeamA"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
         </LinearLayout>
@@ -234,9 +173,7 @@
                 android:text="@string/txt_name_teamB" />
 
             <TextView
-                android:id="@+id/txtGoalsTeamB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_goals" />
 
             <LinearLayout
@@ -245,28 +182,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementGoalsTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementGolasTeamB"
+                    style="@style/Button"
+                    android:background="@drawable/goal_1" />
 
                 <TextView
                     android:id="@+id/txtGoalCounterTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementGolasTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_faults" />
 
             <LinearLayout
@@ -275,28 +202,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementFaultsTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementFaultsTeamB"
+                    style="@style/Button"
+                    android:background="@drawable/checkered_flag" />
 
                 <TextView
                     android:id="@+id/txtFaultsCounterTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementFaultsTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_yellow_cards" />
 
             <LinearLayout
@@ -305,28 +222,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementYellowCardsTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementYellowCardsTeamB"
+                    style="@style/Button"
+                    android:background="@drawable/yellow_card" />
 
                 <TextView
                     android:id="@+id/txtYellowCardsCounterTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementYellowCardsTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_red_cards" />
 
             <LinearLayout
@@ -335,28 +242,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementRedCardsTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementRedCardsTeamB"
+                    style="@style/Button"
+                    android:background="@drawable/red_card" />
 
                 <TextView
                     android:id="@+id/txtRedCardsCounterTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementRedCardsTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_corner_kicks" />
 
             <LinearLayout
@@ -365,28 +262,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementCornerKicksTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementCornerKicksTeamB"
+                    style="@style/Button"
+                    android:background="@drawable/corner" />
 
                 <TextView
                     android:id="@+id/txtCornerKicksCounterTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementCornerKicksTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextTitle"
                 android:text="@string/txt_penalties" />
 
             <LinearLayout
@@ -395,22 +282,13 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnDecrementPenaltiesTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/decrement" />
+                    android:id="@+id/btnIncrementPenaltiesTeamB"
+                    style="@style/Button"
+                    android:background="@drawable/goal" />
 
                 <TextView
                     android:id="@+id/txtPenaltiesCounterTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/initial_counter" />
-
-                <Button
-                    android:id="@+id/btnIncrementPenaltiesTeamB"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/increment" />
+                    style="@style/CounterText" />
 
             </LinearLayout>
         </LinearLayout>
@@ -421,6 +299,7 @@
         android:id="@+id/btnResetCounters"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#FF0000"
         android:text="@string/reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

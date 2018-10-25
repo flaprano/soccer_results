@@ -8,4 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextTitle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="CounterText" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">fill_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/initial_counter</item>
+    </style>
+
+    <style name="Button" parent="AppTheme">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
 </resources>
