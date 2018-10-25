@@ -41,7 +41,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnIncrementGolasTeamA"
+                    android:id="@+id/btnIncrementGoalsTeamA"
                     style="@style/Button"
                     android:background="@drawable/goal_1" />
 
@@ -182,7 +182,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnIncrementGolasTeamB"
+                    android:id="@+id/btnIncrementGoalsTeamB"
                     style="@style/Button"
                     android:background="@drawable/goal_1" />
 
